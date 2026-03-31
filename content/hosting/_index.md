@@ -35,20 +35,20 @@ toc: false
     title="Nextcloud" 
     icon="cloud"
     image="/images/nextcloud_logo.svg"
-    subtitle="Private cloud storage for friends and acquaintances. Only for friends & family." 
+    subtitle="Private cloud storage for friends & family." 
   >}}
   {{< card
     link="https://komga.matthias-grabner.de" 
     title="Komga" 
     icon="book-open"
     image="/images/komga_logo.svg"
-    subtitle="My digital comic collection. Only for friends & family." 
+    subtitle="My digital comic collection accessible by friends & family." 
   >}}
   {{< card
     link="https://audio.matthias-grabner.de" 
     title="Audio" 
     icon="microphone"
     image="/images/none_logo.svg"
-    subtitle="Work in progress! Still thinking about good solutions." 
+    subtitle="Work in progress! I am still thinking about good solutions." 
   >}}
 {{< /cards >}}
