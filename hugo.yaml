@@ -1,0 +1,14 @@
+baseURL: "https://www.matthias-grabner.de/"
+title: "Personal Website"
+theme: ["github.com/imfing/hextra"]
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+params:
+  display_updated_date: true
+  # Hextra sidebar/nav settings
+  navbar:
+    display_title: true
+    display_logo: false
