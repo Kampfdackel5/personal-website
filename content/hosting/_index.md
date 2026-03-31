@@ -1,6 +1,10 @@
-# Infrastructure
+---
+toc: false
+---
 
-**Privacy-focused services hosted on a VPS I trust. Trying to help people be independent of big tech :)**
+# Hosting
+
+**Privacy-focused services hosted on a VPS I trust. Trying to help people be independent from big tech :)**
 
 ---
 
