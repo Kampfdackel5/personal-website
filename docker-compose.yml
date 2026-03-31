@@ -4,4 +4,4 @@ services:
     container_name: personal_site
     restart: unless-stopped
     ports:
-      - "8082:80" # Maps VPS port 8080 to Nginx port 80
+      - "8082:80"

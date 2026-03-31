@@ -8,7 +8,6 @@ module:
 
 params:
   display_updated_date: true
-  # Hextra sidebar/nav settings
   navbar:
     display_title: true
     display_logo: false
