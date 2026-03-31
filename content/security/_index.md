@@ -1,20 +1,25 @@
 ---
-layout: wide
-toc: false
+toc: true
 ---
 
 # Security
 
 I have written several papers on topics regarding various aspects of security. A selection is available for download below.
 
+***
+
 ### Security of IoT Components in Smart Homes
 **ABSTRACT:** IoT devices in smart homes have experienced a boom in the last few years, but the security landscape remains challenging. In this paper, the defining characteristics of IoT are presented, as well as their implications for security. Different methods of attacks are analysed and categorized using the five layer IoT architecture model. Their executability is rated, and it is assumed that the target is an average end-consumer of a Smart Home System. The effects of various security countermeasures are discussed in the context of the potential damage that successful attacks can have and the thereby resulting danger for consumers. Finally, an outlook on expected future developments and security considerations in IoT is given.
 {{< pdf "papers/IoT_Paper.pdf" >}}
+
+***
 
 ### A Survey of Cache Attacks on Mobile Devices
 **ABSTRACT:**
 As processors have evolved over time, so have cache attacks. Today’s smartphones mostly utilize multi-core ARM processors, which can have diverse architectures. These different architectures can pose unique challenges to cache attacks. If successful, this form of side-channel attacks can lead to a loss of privacy or even break encryptions. In this paper, we present the different types of attacks available, what architectures they affect and how attackers can deal with potential design variations in ARM processors. We also discuss what attacks can be executed on which type of cache organization, and lastly include a discussion and summary.
 {{< pdf "papers/CacheAttack_Paper.pdf" >}}
+
+***
 
 ### Deviations in Key Certificate Chains in Android
 **ABSTRACT:**
