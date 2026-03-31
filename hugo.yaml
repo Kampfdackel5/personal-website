@@ -1,5 +1,5 @@
 baseURL: "https://www.matthias-grabner.de/"
-title: "Personal Website"
+title: "Matthias Grabner"
 theme: ["github.com/imfing/hextra"]
 
 module:
@@ -13,3 +13,33 @@ params:
   navbar:
     display_title: true
     display_logo: false
+
+menu:
+  main:
+    - name: About
+      pageRef: /about
+      weight: 1
+    - name: Security
+      pageRef: /security
+      weight: 2
+    - name: Hosting
+      pageRef: /hosting
+      weight: 3
+    - name: Thesis
+      pageRef: /thesis
+      weight: 4
+    - name: Search
+      weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/Kampfdackel5"
+      params:
+        icon: github
+    - name: LinkedIn
+      weight: 7
+      url: "https://www.linkedin.com/in/matthias-grabner-01321b306/"
+      params:
+        icon: linkedin
+

@@ -13,3 +13,11 @@
     max-height: 180px;
 
 }
+
+.hextra-card-subtitle {
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    line-clamp: unset !important;
+    overflow: visible !important;
+    white-space: normal !important;
+}
