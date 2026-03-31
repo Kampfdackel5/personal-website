@@ -8,6 +8,8 @@ module:
 
 params:
   display_updated_date: true
+  page:
+    width: wide
   navbar:
     display_title: true
     display_logo: false
