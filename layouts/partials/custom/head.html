@@ -1,0 +1,6 @@
+<script>
+  window.addEventListener('scroll', () => {
+    const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+    document.body.style.backgroundPositionY = (pct * 80) + '%';
+  });
+</script>

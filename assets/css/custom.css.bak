@@ -1,0 +1,87 @@
+.hextra-card img {
+    max-width: 120px;
+    max-height: 120px;
+    margin: 1.5rem auto 1.5rem;
+    display: block;
+    object-fit:contain;
+}
+
+.hextra-cards > a:nth-child(4) img {
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    max-width: 180px;
+    max-height: 180px;
+
+}
+
+#backToTop {
+    display: none !important;
+}
+
+.hextra-card-subtitle {
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    line-clamp: unset !important;
+    overflow: visible !important;
+    white-space: normal !important;
+}
+
+.hextra-toc > div {
+    background: rgba(255, 255, 255, 0.88);
+}
+
+.hextra-toc > div > div:last-child {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+:root[class~="dark"] .hextra-toc > div {
+    background: rgba(15, 15, 15, 0.88);
+}
+
+/* Sidebar footer with theme toggle */
+.hextra-sidebar-container .hx\:bg-white {
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 -12px 16px rgba(255, 255, 255, 0.95) !important;
+}
+
+:root[class~="dark"] .hextra-sidebar-container .hx\:bg-white {
+  background: rgba(17, 17, 17, 0.95) !important;
+  box-shadow: 0 -12px 16px rgba(17, 17, 17, 0.95) !important;
+}
+
+/* TOC scroll to top section */
+.hextra-toc .hx\:bg-white {
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 -12px 16px rgba(255, 255, 255, 0.95) !important;
+}
+
+:root[class~="dark"] .hextra-toc .hx\:bg-white {
+  background: rgba(17, 17, 17, 0.95) !important;
+  box-shadow: 0 -12px 16px rgba(17, 17, 17, 0.95) !important;
+}
+
+body {
+  background-color: #0a0a0a;
+  background-image: url('/images/background.svg');
+  background-attachment: scroll;
+  background-size: 400%;
+  background-position: center 0%;
+  background-repeat: no-repeat;
+}
+
+:root[class~="dark"] body {
+  background-color: #0a0a0a;
+}
+
+:root:not([class~="dark"]) body {
+  background-color: #f5f5f5;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+:root[class~="dark"] main {
+  background: rgba(15, 15, 15, 0.88);
+}
